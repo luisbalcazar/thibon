@@ -1,0 +1,301 @@
+/* Mobile */
+#mobile-header {
+	position: fixed;
+	z-index: 100;
+	overflow: hidden;
+	left: 0;
+	right: 0;
+	display: none;
+	background: #C25237;
+	text-align: center;
+	box-shadow: 0 0 4px #999;
+}
+#mobile-button {
+	width: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 25px;
+	color: #9A2035;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#mobile-button:hover, .sb-active #mobile-button {
+	background: #9A2035;
+	color: #fff;
+}
+#mobile-menu {
+	background: #9A2035;
+	color: #fff;
+	text-transform: uppercase;
+	border-right: 1px solid rgba(255, 255, 255, .25);
+	font-size: 15px;
+}
+#mobile-nav a {
+    padding: 1em;
+    border-bottom: 1px solid rgba(255, 255, 255, .25);
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+    position: relative;
+}
+#mobile-nav .sub-menu a {
+    background: rgba(255, 255, 255, .25);
+}
+#mobile-nav a:hover {
+	background: #fff;
+	color: #9A2035;
+}
+#mobile-nav a .fa {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 1em;
+    margin: auto;
+    width: 14px;
+    height: 14px;
+}
+#mobile-nav .fa-shopping-cart {
+	padding: 1em;
+	display: block;
+}
+#mobile-nav .sub-menu {
+    display: none;
+}
+#mobile-logo {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 5px auto;
+	height: 50px;
+}
+@media screen and (max-width: 1280px) {
+	.container {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+@media screen and (max-width: 960px) {
+
+
+	.red{
+		width: 100%;
+	}
+
+	section p.Nos{
+
+		width: 100%;
+
+	}
+
+	#slider, .slider {
+
+	height: auto; 
+}
+
+.socialesFlotantes{
+	right: 0px!important;
+	top: 6px;
+	width: 70px;
+	left: auto;
+	}
+
+.socialesFlotantes br{
+	display: none;
+}
+
+	#nav > ul > li {
+		font-size: 15px;
+	}
+	#footer .heading span {
+		padding: 0 1em;
+	}
+	.grid-container {
+		margin: -10px;
+	}
+	.grid .inner-container {
+		padding: 10px;
+	}
+	#slider li {
+		height: 0 !important;
+		padding-bottom: 56.25%;
+	}
+}
+@media screen and (max-width: 800px) {
+
+
+	.heading {
+    font-size: 31px;
+	}
+
+	.button {
+    margin-bottom: 20px;
+}
+
+
+	#slider ul .container {
+	top: 100%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+tr th:nth-child(4), tr th:nth-child(6), tr th:nth-child(7){
+	display: none;
+}
+
+tr td:nth-child(4), tr td:nth-child(6), tr td:nth-child(7){
+	display: none;
+}
+
+tr.last{
+	display: none;
+}
+
+td img {
+ max-width: initial;
+}
+
+
+	#header {
+		display: none;
+	}
+	#mobile-header {
+		display: block;
+	}
+
+	#count {
+    bottom: 14px;
+    right: 20px;
+    font-size: 13px;
+    background: #f1f2ee;
+    color: #9cb740;
+    font-weight: 700;
+	}
+
+	
+	#categorias .grid > li, #categoria .grid > li {
+		width: 50%;
+	}
+	#footer .grid > li, #post .grid > li, #contacto .grid > li {
+		width: auto;
+		display: block;
+	}
+	#contacto .grid-container {
+		padding-top: 20px;
+	}
+	.social {
+		font-size: 0;
+	}
+	.social li {
+		font-size: 18px;
+		margin: 0 .5em;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	
+	#instagram {
+		margin-bottom: 20px;
+	}
+	#footer {
+		margin: 20px auto 0;
+	}
+	.featured {
+		padding: 1em;
+	}
+	.content-container div.caption {
+		position: relative;
+		background: none;
+		font-weight: normal;
+		margin-top: 20px;
+		padding: 0;
+	}
+	.calendario {
+		padding: 10px;
+	}
+	.calendario a {
+		margin: 10px;
+	}
+	.calendario .grid > li {
+		width: 33.33333333%;
+	}
+	#slider .fa-angle-down {
+		display: none;
+	}
+
+
+
+}
+@media screen and (max-width: 600px) {
+
+
+	h1.bienvenida {
+	    font-size: 17px;
+	    text-align: left;
+		}
+
+	.medio {
+    width: 93%;
+	}
+
+	input.tuneado1 {
+    width: 95%;
+	}
+
+	textarea.tuneado1 {
+    width: 95%;
+	}
+
+	.datosFooterNegro {
+    height: 100px;
+	}
+
+	.datosFooterNegro p {
+		text-align: center;
+		margin: 0;
+	}
+
+	#slider .container {
+    min-height: 29vh;
+}
+
+#slider .caption .title {
+    font-size: 20px;
+	}
+
+	.face {
+    display: inline-block;
+    float: none;
+
+}
+
+
+	body, .grid .inner-container {
+		font-size: 13px;
+	}
+	#footer {
+		text-align: center;
+	}
+	#mi-calendario .grid > li {
+		width: auto;
+		display: block;
+	}
+	form td {
+		display: block;
+		padding: .5em 0;
+	}
+	label {
+		margin-bottom: 0;
+	}
+}
+@media screen and (max-width: 480px) {
+	#categoria .precio {
+		clear: both;
+
+	}
+	#mapa-container {
+		padding-bottom: 125%;
+	}
+	.calendario .grid > li {
+		width: 50%;
+	}
+}
